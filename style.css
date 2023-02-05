@@ -1,0 +1,17 @@
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  cover = usado para que uma imagem se ajuste ao tamanho da tela */
+
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+#container {
+  border: 1px solid red;
+  margin: auto;
+  width: 360px;
+  height: 712px;
+}

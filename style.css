@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*quer dizer que todos os elementos não vão ter a margen e nem largura padrão do navegador*/
+
 body {
   /*
   background-image: url(./assets/bg-mobile.jpg);
@@ -9,16 +16,30 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-#container {
-  border: 1px solid red;
-  margin: auto;
-  width: 360px;
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
 }
 
+#container {
+  border: 1px solid red;
+  width: 360px;
+  margin: 56px auto 0px auto;
+}
+
+/*pai do "profile img"*/
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  /*font-size: 16px; -> o navegador por padrão já tem o tamanho da fonte por 16px*/
+  line-height: 24px;
+  margin-top: 8px;
 }
